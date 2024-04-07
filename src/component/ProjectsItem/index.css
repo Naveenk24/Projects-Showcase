@@ -1,0 +1,22 @@
+.projects-list-item {
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  margin: 10px;
+  box-shadow: 0px 3px 16px 0px #bfbfbf;
+  width: 18%;
+
+  line-height: 0;
+}
+
+.project-logo {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.project-name {
+  line-height: 0;
+  color: #475569;
+  font-weight: 600;
+  padding: 2px 10px 2px 6px;
+}

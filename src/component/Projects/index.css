@@ -1,0 +1,82 @@
+.nav-element {
+  height: 12vh;
+  background-color: #f1f5f9;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0px 0px 0px 20px;
+}
+
+.website-logo {
+  width: 100px;
+}
+
+.projects-container {
+  height: 88vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 20px 20px 20px 20px;
+}
+
+.select-input-element {
+  align-self: flex-start;
+  width: 25%;
+  padding: 5px 0px 5px 10px;
+  border-radius: 4px;
+}
+
+.project-item-container {
+  height: 75vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 100%;
+  align-items: center;
+}
+
+.spinner {
+  margin-top: 150px;
+}
+
+.projects-list {
+  list-style-type: none;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.failure-view-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 82vh;
+}
+
+.failure-view-image {
+  width: 240px;
+}
+
+.failure-heading {
+  color: #475569;
+  font-size: 25px;
+  font-family: Bree Serif;
+}
+
+.failure-paragraph {
+  color: #cbd5e1;
+  line-height: 0em;
+}
+
+.failure-button {
+  background-color: #328af2;
+  color: #ffffff;
+  font-weight: 600;
+  border: none;
+  border-radius: 4px;
+  padding: 7px 20px 7px 20px;
+  margin-top: 10px;
+}
